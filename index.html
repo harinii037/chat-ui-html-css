@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat UI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="chat-container">
+    <div class="chat-header">
+      <div class="chat-user-info">
+        <div class="user-avatar">
+          <img src="images/icon.png" alt="User Avatar">
+        </div>
+        <div>
+          <h3>Aditi</h3>
+          <span class="status">Online</span>
+        </div>
+      </div>
+      <div class="chat-actions">
+        <button>⋮</button>
+      </div>
+    </div>
+
+    <div class="chat-messages">
+      <div class="message received">
+        <p>Hey! How’s it going?</p>
+        <span class="time">10:05 AM</span>
+      </div>
+      <div class="message sent">
+        <p>Hi! I’m good, thanks. How about you?</p>
+        <span class="time">10:06 AM</span>
+      </div>
+      <div class="message received">
+        <p>Doing great! Are you coming to the project meeting later?</p>
+        <span class="time">10:07 AM</span>
+      </div>
+      <div class="message sent">
+        <p>Yes, I’ll be there in 10 minutes.</p>
+        <span class="time">10:08 AM</span>
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input type="text" placeholder="Type a message..." />
+      <button>Send</button>
+    </div>
+  </div>
+
+</body>
+</html>
